@@ -60,7 +60,7 @@ function timeElapse(date){
 	if (years < 10) {
 		years = "0" + years;
 	}
-	days = days - Math.floor(years * 365.25);
+	days = Math.floor(days - (years * 365.25));
 
 //	var result = "第 <span class=\"digit\">" + days + "</span> 天 <span class=\"digit\">" + hours + "</span> 小时 <span class=\"digit\">" + minutes + "</span> 分钟 <span class=\"digit\">" + seconds + "</span> 秒"; 
 //	$("#clock").html(result);
