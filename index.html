@@ -182,7 +182,7 @@
 
         var textAnimate = eval(Jscex.compile("async", function () {
 		    var together = new Date();
-		    together.setFullYear(2001, 0, 27); 			//时间年月日
+		    together.setFullYear(2001, 0, 26); 			//时间年月日 - day should be 27 but the day value is coming up short by 1 so I deducted 1 here as a temporary solution 
 		    together.setHours(0);						//小时	
 		    together.setMinutes(0);					//分钟
 		    together.setSeconds(0);					//秒前一位
