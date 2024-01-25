@@ -10,7 +10,7 @@ top:80px;position:absolute;
 #code{display:none;font-size:16px;}
 #clock-box {position:absolute;left:60px;top:550px;font-size:28px;display:none;}
 #clock-box a {font-size:28px;text-decoration:none;}
-#clock{margin-left:48px;}
+#clock{margin-left:48px; color:rgb(63, 184, 184)}
 #clock .digit {color:aqua} 
 #canvas{margin:0 auto;width:1100px;height:680px;}
 #error{margin:0 auto;text-align:center;margin-top:60px;display:none;}
